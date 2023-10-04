@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh; /* Высота вьюпорта */
+    margin: 0;
+}
+
+.map-container {
+    flex: 1; /* Расширяется на всю доступную ширину */
+    background-color: #f0f0f0; /* Цвет фона */
+}
+
+.ui-container {
+    flex: 1; /* Расширяется на всю доступную ширину */
+    background-color: #fff; /* Цвет фона */
+    padding: 20px; /* Отступы внутри контейнера */
+}
